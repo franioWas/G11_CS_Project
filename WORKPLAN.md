@@ -3,6 +3,7 @@
 ## Main Stages for Project Completion**
 1. Create core functions which allow the program to accept connection requests, send connection requests, send text data,
    and allow the user to interface with the program through basic text commands.
+<<<<<<< HEAD
 2. Improve text parsing, so that chats can be recorded in plain text, and maybe that the program will use
 a text standard. 
 2. Create a "network awareness" capability. This means that the program will have a mechanism which will
@@ -22,3 +23,10 @@ allow other running programs to see that the user is online and able to revieve 
 2. finish what was goal 2 on May 21 -- FAIL 
 3. finish what was goal 3 on May 21 -- SUCCESS
 
+=======
+2. Create a "
+
+## Daily Goals
+**May 21:** 
+Get work plan file complete, learn git, allow template code to use address's other then the loop back
+>>>>>>> f2fea86777b3e48a014aca25553fd46f8a5ea18b
