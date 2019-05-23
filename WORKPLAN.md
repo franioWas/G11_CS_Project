@@ -13,13 +13,13 @@ allow other running programs to see that the user is online and able to revieve 
 6. STRETCH-GOAL: maybe allow public chats i dunno.
 
 ## Daily Goals
-**May 21:** 
+### May 21: 
 1. get work plan file complete -- PARTIAL FAIL
 2. learn basics of git -- PARTIAL FAIL
 3. allow template code to use address's other then the loop back -- FAIL
-**May 22:**
+### May 22:
 1. finish what was goal 1 on May 21 -- SUCCESS
 2. finish what was goal 2 on May 21 -- FAIL 
 3. finish what was goal 3 on May 21 -- SUCCESS
-**May 23:**
+### May 23:
 1. allow both client and server to send custom messages
