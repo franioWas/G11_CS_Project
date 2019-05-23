@@ -19,6 +19,6 @@ allow other running programs to see that the user is online and able to revieve 
 3. allow template code to use address's other then the loop back -- FAIL
 **May 22:**
 1. finish what was goal 1 on May 21 -- SUCCESS
-2. finish what was goal 2 on May 21 
+2. finish what was goal 2 on May 21 -- FAIL 
 3. finish what was goal 3 on May 21 -- SUCCESS
 
