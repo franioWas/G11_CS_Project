@@ -10,7 +10,7 @@ buffer. By doing this modularity can also be increased, as what actually parses 
 allow other running programs to see that the user is online and able to revieve connection requests, 
 and the program itself is able to make itself "known" to other peers in the network. I believe i'll do this by making the program broadcast UDP packets across the network.
 3. Develop a "terminal" user interface similair to the nmtui interface for network-manager. The program will now have this tui (terminal user interface), and the cui (command user interface).
-### Stretch Goals (features not neccasary for the bas project)
+### Stretch Goals (features not neccasary for the base project)
 4. STRETCH-GOAL: allow the program to have the ability to make servers on the network, in which one person hosts and multiple people may connect to the server. This should be implemented as a module, so people can still have the basic chat function without the code to also allow servers
 5. STRETCH-GOAL: develop a gui, which like stage 4 is implemented as a module.
 6. STRETCH-GOAL: maybe allow public chats i dunno.
