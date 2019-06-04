@@ -27,6 +27,8 @@ and the program itself is able to make itself "known" to other peers in the netw
 ### May 23:
 1. allow both client and server to send custom messages -- FAIL
 ### June 4:
-1. finish what was goal 1 on may 23
-2. implement basic CLI. Commands to have: help command, connect request command, connect accept command. When in a chat, make command to end the chat.
-3. allow custom IP to be input through CLI. By custom IP, i mean allow the client to choose the ip to attempt to connect to
+1. finish what was goal 1 on may 23 - PARTIAL SUCCES: CAN SEND A CUSTOM MESSAGE OF UP TO 30 CHARACTERS LONG NOW, BUT DOES NOT FULLY SEND MESSAGES WITH SPACES
+### June 5:
+1. allow multiple custom messages to be sent. Messages must be able to have spaces. 
+## General Goals to complete before June 9:
+

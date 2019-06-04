@@ -6,7 +6,7 @@
 #include <stdlib.h> 
 #include <netinet/in.h> 
 #include <string.h> 
-#define PORT 4080 
+#define PORT 8080 
 int main(int argc, char const *argv[]) 
 { 
     int server_fd, new_socket, valread; 
@@ -14,7 +14,7 @@ int main(int argc, char const *argv[])
     int opt = 1; 
     int addrlen = sizeof(address); 
     char buffer[1024] = {0}; 
-    char *hello = "Hello from server"; 
+    char *msg[30]; 
        
     // Creating socket file descriptor 
     if ((server_fd = socket(AF_INET, SOCK_STREAM, 0)) == 0) 
@@ -53,9 +53,10 @@ int main(int argc, char const *argv[])
         exit(EXIT_FAILURE); 
     } 
     valread = read( new_socket , buffer, 1024); 
-    printf("%s\n",buffer ); 
-    send(new_socket , hello , strlen(hello) , 0 ); 
-    printf("Hello message sent\n"); 
+    printf("%s\n",buffer );
+    scanf("%s\n", msg); 
+    send(new_socket , msg , strlen(msg) , 0 ); 
+    printf("Custom message sent\n"); 
     return 0; 
 } 
 

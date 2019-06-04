@@ -38,7 +38,7 @@ int main(int argc, char const *argv[])
         return -1; 
     } 
     scanf("%s", msg);
-    send(sock , hello , strlen(hello) , 0 ); 
+    send(sock , msg , strlen(msg) , 0); 
     printf("Custom message sent\n"); 
     valread = read( sock , buffer, 1024); 
     printf("%s\n",buffer ); 
