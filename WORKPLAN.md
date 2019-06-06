@@ -31,7 +31,7 @@ and the program itself is able to make itself "known" to other peers in the netw
 ### June 5:
 1. allow multiple custom messages to be sent. Messages must be able to have spaces.
 ### June 6:
-1. Finish what was goal one for June 5. - PARTIAL SUCCESS: CLIENT MAY SEND MULTIPLE MESSAGES OF MAX LENGTH 30 TO SERVER. THE SERVER IS ABLE TO RECEIVE AND DISPLAY THESE MESSAGES, HOWEVER, IT SEEMS THE WAY I GET THE MESSAGE IN CLIENT STILL DOES NOT DETECT SPACES. THIS MEANS THE MESSAGES STILL DON'T HAVE SPACES. SERVER IS UNABLE TO SEND MESSAGES TO CLIENT, AND CLIENT IS UNABLE TO RECIEVE MESSAGES FROM SERVER (EVEN IF THE SERVER COULD SEND MESSAGES) 
+1. Finish what was goal one for June 5. - PARTIAL SUCCESS: CLIENT MAY SEND MULTIPLE MESSAGES OF MAX LENGTH 30 TO SERVER. THE SERVER IS ABLE TO RECEIVE AND DISPLAY THESE MESSAGES. SERVER CANNOT SEND MESSAGES, CLIENT CANNOT RECEIVE MESSAGES (EVEN IF SERVER WOULD BE ABLE TO SEND MESSAGES).
 ## General Goals to complete before June 9:
 1. make program p2p. This means both the client and server code must be able to be in one program.
 2. allow long complex messages to be sent, and try to make the mechanism for interpreting text file based.
