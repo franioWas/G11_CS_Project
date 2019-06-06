@@ -52,11 +52,10 @@ int main(int argc, char const *argv[])
         perror("accept"); 
         exit(EXIT_FAILURE); 
     } 
-    valread = read( new_socket , buffer, 1024); 
-    printf("%s\n",buffer );
-    scanf("%s\n", msg); 
-    send(new_socket , msg , strlen(msg) , 0 ); 
-    printf("Custom message sent\n"); 
+    for (int i = 0; i == i; i++) {
+   	valread = read( new_socket , buffer, 1024); 
+    	printf("%s\n", buffer);
+    }	
     return 0; 
 } 
 

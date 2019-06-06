@@ -36,12 +36,11 @@ int main(int argc, char const *argv[])
     { 
         printf("\nConnection Failed \n"); 
         return -1; 
+    }
+    for (int i = 0; i == i; i++) { 
+   	scanf(msg, 30, stdin);
+	send (sock , msg , strlen(msg) , 0);
     } 
-    scanf("%s", msg);
-    send(sock , msg , strlen(msg) , 0); 
-    printf("Custom message sent\n"); 
-    valread = read( sock , buffer, 1024); 
-    printf("%s\n",buffer ); 
     return 0; 
 } 
 
