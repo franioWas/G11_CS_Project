@@ -6,8 +6,9 @@
 #include <stdlib.h> 
 #include <netinet/in.h> 
 #include <string.h> 
-#define PORT 8080 
-int main(int argc, char const *argv[]) 
+#define PORT 8080
+
+void server() 
 { 
     int server_fd, new_socket, valread; 
     struct sockaddr_in address; 

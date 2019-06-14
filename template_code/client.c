@@ -3,12 +3,11 @@
 #include <stdio.h> 
 #include <sys/socket.h> 
 #include <stdlib.h> 
-//#include <netinet/in.h> 
 #include <arpa/inet.h> 
 #include <string.h> 
 #define PORT 8080 
    
-int main(int argc, char const *argv[]) 
+int client(char *ip) 
 {
     if (argc > 2) exit(1);
 
@@ -29,7 +28,7 @@ int main(int argc, char const *argv[])
     serv_addr.sin_port = htons(PORT); 
        
     // Convert IPv4 and IPv6 addresses from text to binary form 
-    if(inet_pton(AF_INET, argv[1], &serv_addr.sin_addr)<=0)  
+    if(inet_pton(AF_INET, ip, &serv_addr.sin_addr)<=0)  
     { 
         printf("\nInvalid address/ Address not supported \n"); 
         return -1; 
