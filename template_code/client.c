@@ -3,7 +3,8 @@
 #include <stdio.h> 
 #include <sys/socket.h> 
 #include <stdlib.h> 
-#include <netinet/in.h> 
+//#include <netinet/in.h> 
+#include <arpa/inet.h> 
 #include <string.h> 
 #define PORT 8080 
    
@@ -14,7 +15,7 @@ int main(int argc, char const *argv[])
     struct sockaddr_in address; 
     int sock = 0, valread; 
     struct sockaddr_in serv_addr; 
-    char *msg[30]; 
+    char msg[30]; 
     char buffer[1024] = {0}; 
     if ((sock = socket(AF_INET, SOCK_STREAM, 0)) < 0) 
     { 
@@ -39,7 +40,8 @@ int main(int argc, char const *argv[])
         printf("\nConnection Failed \n"); 
         return -1; 
     }
-    for (int i = 0; i == i; i++) { 
+    for (int i = 0; i == i; i++) {
+	printf("me: %d : ",i); 
    	fgets(msg, 30, stdin);
 	send (sock , msg , strlen(msg) , 0);
     } 
