@@ -38,7 +38,7 @@ int main(int argc, char const *argv[])
         return -1; 
     }
     for (int i = 0; i == i; i++) { 
-   	scanf(msg, 30, stdin);
+   	fgets(msg, 30, stdin);
 	send (sock , msg , strlen(msg) , 0);
     } 
     return 0; 
