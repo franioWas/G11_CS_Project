@@ -54,7 +54,8 @@ int main(int argc, char const *argv[])
     } 
     for (int i = 0; i == i; i++) {
    	valread = read( new_socket , buffer, 1024); 
-    	printf("%s\n", buffer);
+    	printf("%s", buffer);
+	memset(buffer,0,strlen(buffer));
     }	
     return 0; 
 } 
