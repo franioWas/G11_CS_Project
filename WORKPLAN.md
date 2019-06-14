@@ -29,10 +29,12 @@ and the program itself is able to make itself "known" to other peers in the netw
 ### June 4:
 1. finish what was goal 1 on may 23 - PARTIAL SUCCES: CAN SEND A CUSTOM MESSAGE OF UP TO 30 CHARACTERS LONG NOW, BUT DOES NOT FULLY SEND MESSAGES WITH SPACES
 ### June 5:
-1. allow multiple custom messages to be sent. Messages must be able to have spaces.
+1. allow multiple custom messages to be sent. Messages must be able to have spaces. -- SOMEWHAT SUCCESS
 ### June 6:
 1. Finish what was goal one for June 5. - PARTIAL SUCCESS: CLIENT MAY SEND MULTIPLE MESSAGES OF MAX LENGTH 30 TO SERVER. THE SERVER IS ABLE TO RECEIVE AND DISPLAY THESE MESSAGES. SERVER CANNOT SEND MESSAGES, CLIENT CANNOT RECEIVE MESSAGES (EVEN IF SERVER WOULD BE ABLE TO SEND MESSAGES).
+### June 14:
+1. Finish goals set to finish before June 9.
 ## General Goals to complete before June 9:
-1. make program p2p. This means both the client and server code must be able to be in one program.
-2. allow long complex messages to be sent, and try to make the mechanism for interpreting text file based.
+1. make program p2p. This means both the client and server code must be able to be in one program. -- INCREDIBLE FAILURE
+2. allow long complex messages to be sent, and try to make the mechanism for interpreting text file based. -- INCREDIBLE FAILURE
 
